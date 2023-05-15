@@ -1,0 +1,1 @@
+var tipuesearch = {"pages": [{'title': 'About', 'text': '四設計二甲 \n 成員:41023154張韋翔、41023135林政蔚、41023133林建三、41023140邱仲陞 \xa0\xa0\xa0\xa0\xa0\xa0 41023102王郁淳、41023105李宛妮、41023107林廷芸、41023109洪于芳 \n 倉儲: https://github.com/mdecd2023/2a3-pj3ag5   \n \n \n \n \n \n \n \n \n \n \n \n \n \n', 'tags': '', 'url': 'About.html'}]};
