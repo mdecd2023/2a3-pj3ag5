@@ -1,9 +1,22 @@
-\chapter{伺服器}
- 此專題採用 Ubuntu 20.04 版本作為我們的架設所使用作業系統，由於 Ubuntu 功能尤為繁多，以下說明重點只著重在專題製作所用到功能上。\\
+\chapter{程式碼}
+ 球員控制程式\\
  
- Ubuntu 作業系統是 Linux 系統的一個發行版，目前免費且開源，Ubuntu 基於 Debian發行版和 GNOME 桌面環境，其目標在於為一般使用者提供一個最新、穩定又主要以自由軟體建構而成的作業系統。\\
+ \begin{figure}[hbt!]
+\begin{center}
+\includegraphics[width=13cm]{程式碼1}
+\caption{\Large 程式碼1}\label{fig.程式碼1}
+\end{center}
+\end{figure}
+
+ 使用 RemoteAPIClient 來連接遠端的 API 服務器，以及使用
+keyboard 函式庫來控制鍵盤。\\
+\begin{figure}[hbt!]
+\begin{center}
+\includegraphics[width=13cm]{程式碼2}
+\caption{\Large 程式碼2}\label{fig.程式碼2}
+\end{center}
+\end{figure}
  
- 其開發目的是為了使個人電腦變得簡單易用，它與其他基於 Debian 所發行的 Linux 版本更加接近 Debian 的開發理念，它主要使用自由、開源的軟體，而其他則帶很多閉源的軟體。\\
 \section{Ubuntu 環境配置}
  在一開始會先使用套件管理系統 apt 指令去下載 Xorg , fluxbox , lxde 套件。Xorg 是 Ubuntu 操作系統的一個顯示服務器軟件包，它在被導入 Ubuntu 操作系統後會載入一系列的文件或軟件，這些都是跟顯示卡驅動，圖形環境庫相關的一些文件、軟件。Gnome ，kde，包括我們使用的 lxde 也需要 xorg 才能實現。而 Lxde 它的全名是 Lightweight X11 Desktop Environment ，是自由軟體桌面環境，其優點在於提供了輕量而快速的桌面環境，它比較重視實用、輕巧，除此之外它還可以在 Linux 平台執行。\\
  
